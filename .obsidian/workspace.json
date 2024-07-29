@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "고박사 유니티/Spwaner_Instantiate.md",
+                "file": "고박사 유니티/Instantiate.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "고박사 유니티/Spwaner_Instantiate.md",
+                "file": "고박사 유니티/Instantiate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "고박사 유니티/Spwaner_Instantiate.md",
+                "file": "고박사 유니티/Instantiate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "고박사 유니티/Spwaner_Instantiate.md"
+                "file": "고박사 유니티/Instantiate.md"
               }
             }
           }
@@ -186,7 +186,7 @@
   "active": "52c7edcd57d61d7c",
   "lastOpenFiles": [
     "고박사 유니티/prefab.md",
-    "고박사 유니티/Spwaner_Instantiate.md",
+    "고박사 유니티/Instantiate.md",
     "Pasted image 20240727192513.png",
     "callout.md",
     "고박사 유니티/게임 오브젝트 이동.md",
