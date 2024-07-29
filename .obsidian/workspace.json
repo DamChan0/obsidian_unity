@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "d50586866f5c7685",
+    "type": "split",
+    "children": [
+      {
+        "id": "591595a75bc5222a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99024edfff8d746c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "고박사 유니티/prefab.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "78ab6e9f6928577a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "고박사 유니티/prefab.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "52c7edcd57d61d7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "고박사 유니티/Spwaner_Instantiate.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "38e0e7fd0fdddc6c",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e8f104674363a85",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a5ef07bb51d4469",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "104f6308c8043209",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "cd18618495b753b6",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "25e1320d945e533c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 249.5
+  },
+  "right": {
+    "id": "5a865a3754d92621",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3ef07726f882507",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "539c7badf715851f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "고박사 유니티/Spwaner_Instantiate.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "294d835fc1898324",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "고박사 유니티/Spwaner_Instantiate.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "06cd2b1bce0e81c4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d7f4fa5b78e5a5bb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "고박사 유니티/Spwaner_Instantiate.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "52c7edcd57d61d7c",
+  "lastOpenFiles": [
+    "고박사 유니티/prefab.md",
+    "고박사 유니티/Spwaner_Instantiate.md",
+    "Pasted image 20240727192513.png",
+    "callout.md",
+    "고박사 유니티/게임 오브젝트 이동.md",
+    "asdasas.svg",
+    "Excalidraw/Excalidraw.md",
+    "Drawing 2024-07-09 22.32.50.excalidraw.md",
+    "게임오브젝트.svg",
+    "고박사 유니티/Untitled Diagram.svg",
+    "Excalidraw/Scripts/Downloaded/Create DrawIO file.md",
+    "Excalidraw/Scripts/Downloaded/Create DrawIO file.svg",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Excalidraw",
+    "Untitled.drawio.md",
+    "Excalidraw/Drawing 2024-07-09 22.29.10.excalidraw.md",
+    "고박사 유니티"
+  ]
+}
