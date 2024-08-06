@@ -1,4 +1,6 @@
 {
   "spellcheck": false,
-  "vimMode": false
+  "vimMode": false,
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false
 }

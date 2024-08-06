@@ -1,6 +1,7 @@
 {
-  "cssTheme": "Minimal",
+  "cssTheme": "",
   "baseFontSize": 16,
   "monospaceFontFamily": "",
-  "interfaceFontFamily": "Consolas"
+  "interfaceFontFamily": "Consolas",
+  "nativeMenus": false
 }

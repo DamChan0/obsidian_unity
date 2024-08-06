@@ -38,7 +38,7 @@ InvokeRepeating("SpwanOnPoint", 0.4f, 0.3f);
 ```
 - spwanOnPoint 는 0.4초 뒤에 호출되고 0.3초 마다 계속 반복한다.
 - 반복 멈춤
-	- [[Spwaner_Instantiate#delaTime 사용]]을 사용하여 시간 스택을 쌓거나 WaitForSeconds(stopAfter);으로 특정 시간 후 멈추도록 할 수 있음
+	- [[Instantiate#delaTime 사용]]을 사용하여 시간 스택을 쌓거나 WaitForSeconds(stopAfter);으로 특정 시간 후 멈추도록 할 수 있음
 	- CancelInvoke("SpawnOnPoint"); // 반복 호출 멈춤
 
 
@@ -55,3 +55,18 @@ Instantiate(prefab[index], pos, Quaternion.identity);
 
 a와 b사이에서 랜덤 값을 생성한다. 
 x,y 좌표를 각각 랜던하게 생성하고 Vector3변수에 대입하여 랜덤 생성 할 수 있음
+
+
+## 총알 생성
+
+- 플레이어가 발사하는 오브젝트도 만들 수 있다
+
+```cs
+if (Input.GetKeyDown(keycode.Space))
+{
+	GameObject bulletobj = Instantiate(bullet, transform.position, quaternion.identity);
+}
+```
+
+- Space를 누를 때마다 bullet GameObject를 생성한다 
+	- 이때 bullet은 prefab으로 하는것이 바람직하다
