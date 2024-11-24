@@ -4,5 +4,8 @@
   "drawio-obsidian",
   "templater-obsidian",
   "obsidian-minimal-settings",
-  "obsidian-git"
+  "obsidian-git",
+  "highlightr-plugin",
+  "obsidian-style-settings",
+  "colored-text"
 ]
