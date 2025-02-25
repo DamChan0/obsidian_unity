@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "flutter/chatBot/code 분석.md",
+                "file": "BackEnd/DB/DB란.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "code 분석"
+              "title": "DB란"
             }
           }
         ],
@@ -119,7 +119,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -192,13 +192,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "flutter/chatBot/code 분석.md",
+                "file": "BackEnd/DB/DB란.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of code 분석"
+              "title": "Outline of DB란"
             }
           }
         ],
@@ -223,12 +223,15 @@
   },
   "active": "7719b7ed884f20be",
   "lastOpenFiles": [
-    "flutter/src/Pasted image 20241004143250.png",
     "flutter/chatBot/code 분석.md",
+    "BackEnd/DB/DB란.md",
+    "BackEnd/DB",
+    "Untitled 1",
+    "flutter/src/Pasted image 20241004143250.png",
     "flutter/chatBot",
     "flutter/src/Pasted image 20240917222956.png",
     "unreal/part02/Actor 컴포넌트.md",
-    "Untitled",
+    "BackEnd",
     "unreal/part02/Pasted image 20250217224214.png",
     "unreal/part02/Character.md",
     "unreal/part02/Pawn.md",
@@ -259,15 +262,12 @@
     "유니티/2d/Animation/Pasted image 20250105150609.png",
     "유니티/2d/Animation/Has Exit Time.md",
     "유니티/2d/Animation/Sprite Atlas.md",
-    "유니티/Pasted image 20250102224244.png",
     "unreal/part01/Unreal 컨테이너 라이브러리 (UCL).md",
     "unreal/part01/Unreal Delegate.md",
     "unreal/Unreal Delegate 2024-11-17 15.29.53.excalidraw.md",
     "unreal/diagram",
     "unreal/diagram/Unreal Delegate 2024-11-17 15.30.33.excalidraw.md",
     "Excalidraw",
-    "unreal/image",
-    "unreal",
-    "flutter/src"
+    "unreal/image"
   ]
 }
