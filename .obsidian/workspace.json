@@ -8,94 +8,26 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d283bcfda39c1a68",
+            "id": "9d5f0ab7f16d167a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "flutter/List widget.md",
+                "file": "유니티/2d/prefab.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "List widget"
+              "title": "prefab"
             }
           },
           {
-            "id": "cb786af24c248f8a",
+            "id": "05f62ac9807a6d5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unreal/Unreal 오브젝트 리플렉션 시스템.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Unreal 오브젝트 리플렉션 시스템"
-            }
-          },
-          {
-            "id": "53852963569472c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "unreal/Unreal C++ 인터페이스.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Unreal C++ 인터페이스"
-            }
-          },
-          {
-            "id": "70592c0d2d7ccb44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "unreal/Unreal 컴포지션(Composition).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Unreal 컴포지션(Composition)"
-            }
-          },
-          {
-            "id": "a1554a609a51eea3",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.5"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.5"
-            }
-          },
-          {
-            "id": "d95e77ad3dd4ae6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "unreal/Unreal C++ 인터페이스.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Unreal C++ 인터페이스"
-            }
-          },
-          {
-            "id": "704c657561a3cca0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "unreal/Composition.md",
+                "file": "unreal/part01/Composition.md",
                 "mode": "source",
                 "source": false
               },
@@ -104,35 +36,33 @@
             }
           },
           {
-            "id": "fc74cc61c04bdd0a",
+            "id": "da7eab936801ab0d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "unreal/Unreal Delegate.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.8.4"
               },
-              "icon": "lucide-file",
-              "title": "Unreal Delegate"
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
             }
           },
           {
-            "id": "947528889dc4c4b7",
+            "id": "7719b7ed884f20be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unreal/Unreal 컨테이너 라이브러리 (UCL).md",
+                "file": "flutter/chatBot/code 분석.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unreal 컨테이너 라이브러리 (UCL)"
+              "title": "code 분석"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -188,7 +118,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -261,18 +192,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "flutter/List widget.md"
+                "file": "flutter/chatBot/code 분석.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of List widget"
+              "title": "Outline of code 분석"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -287,53 +221,53 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "947528889dc4c4b7",
+  "active": "7719b7ed884f20be",
   "lastOpenFiles": [
-    "unreal/Unreal Delegate.md",
-    "unreal/Unreal 컨테이너 라이브러리 (UCL).md",
+    "flutter/src/Pasted image 20241004143250.png",
+    "flutter/chatBot/code 분석.md",
+    "flutter/chatBot",
+    "flutter/src/Pasted image 20240917222956.png",
+    "unreal/part02/Actor 컴포넌트.md",
+    "Untitled",
+    "unreal/part02/Pasted image 20250217224214.png",
+    "unreal/part02/Character.md",
+    "unreal/part02/Pawn.md",
+    "unreal/part02",
+    "unreal/part02/World.md",
+    "unreal/예제1.md",
+    "unreal/part01",
+    "유니티/2d/prefab.md",
+    "유니티/2d/GoldMetal/random tile &&  infinity tile map.md",
+    "유니티/2d/Pasted image 20250127224459.png",
+    "유니티/2d/Pasted image 20250127224445.png",
+    "유니티/2d/Pasted image 20250127224441.png",
+    "유니티/2d/Pasted image 20250127224406.png",
+    "unreal/part01/Unreal 오브젝트 리플렉션 시스템.md",
+    "flutter/List widget.md",
+    "unreal/part01/Unreal C++ 인터페이스.md",
+    "유니티/2d/GoldMetal/object pooling.md",
+    "유니티/2d/GoldMetal/Pasted image 20250105152546.png",
+    "유니티/2d/GoldMetal/Pasted image 20250105152654.png",
+    "유니티/2d/GoldMetal/애니매이션 재활용하기.md",
+    "유니티/2d/GoldMetal/sell animation.md",
+    "유니티/2d/Animation/batch.md",
+    "unreal/part01/Unreal 컨데이터 라이브러리 TMap, UStruct.md",
+    "unreal/part01/Unreal 컨데이터 라이브러리 TSet.md",
+    "유니티/2d/GoldMetal/게임 오브젝트 이동.md",
+    "유니티/2d/Instantiate.md",
+    "유니티/2d/GoldMetal",
+    "유니티/2d/Animation/Pasted image 20250105150609.png",
+    "유니티/2d/Animation/Has Exit Time.md",
+    "유니티/2d/Animation/Sprite Atlas.md",
+    "유니티/Pasted image 20250102224244.png",
+    "unreal/part01/Unreal 컨테이너 라이브러리 (UCL).md",
+    "unreal/part01/Unreal Delegate.md",
     "unreal/Unreal Delegate 2024-11-17 15.29.53.excalidraw.md",
     "unreal/diagram",
     "unreal/diagram/Unreal Delegate 2024-11-17 15.30.33.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-17 15.21.02.excalidraw.md",
     "Excalidraw",
-    "unreal/Composition.md",
-    "unreal/Unreal C++ 인터페이스.md",
-    "callout.md",
-    "unreal/Unreal 컴포지션(Composition).md",
-    "unreal/image/Pasted image 20241102154514.png",
-    "unreal/예제1.md",
-    "unreal/image/Pasted image 20241109205649.png",
-    "unreal/image/Pasted image 20241109205540.png",
-    "unreal/image/Pasted image 20241109201347.png",
-    "unreal/Unreal 오브젝트 리플렉션 시스템.md",
-    "unreal/image/Pasted image 20241005181044.png",
     "unreal/image",
-    "unreal/image/Pasted image 20241012142708.png",
-    "src/Pasted image 20240727192513.png",
-    "src/Pasted image 20240813235628.png",
-    "unreal/image/Pasted image 20241010204001.png",
-    "unreal/image/Pasted image 20241010204000 1.png",
-    "flutter/List widget.md",
     "unreal",
-    "flutter/Widget.md",
-    "flutter/statfullWidget.md",
-    "flutter/print.md",
-    "flutter/기본 연산자&문법.md",
-    "flutter/예외 처리.md",
-    "유니티/2d/Animation/Sprite Atlas.md",
-    "유니티/2d/게임 오브젝트 이동.md",
-    "유니티/2d/prefab.md",
-    "flutter/Pasted image 20240917222957.png.md",
-    "flutter/src",
-    "유니티/3d/move.md",
-    "flutter",
-    "유니티/3d",
-    "src",
-    "유니티/2d/Animation/Has Exit Time.md",
-    "유니티/2d",
-    "유니티/2d/Animation/batch.md",
-    "유니티/2d/Animation",
-    "유니티/2d/Instantiate.md",
-    "유니티/2d/jump.md"
+    "flutter/src"
   ]
 }

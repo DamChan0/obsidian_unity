@@ -5,5 +5,7 @@
   "readableLineLength": false,
   "newFileLocation": "current",
   "promptDelete": false,
-  "attachmentFolderPath": "./"
+  "attachmentFolderPath": "./",
+  "propertiesInDocument": "source",
+  "foldHeading": true
 }
