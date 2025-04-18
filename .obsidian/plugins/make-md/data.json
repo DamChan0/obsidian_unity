@@ -40,7 +40,9 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/"
+    "/",
+    "//nodejs",
+    "//nodejs/nodejs/TypeScript"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -55,6 +57,7 @@
     "_assets",
     "_blocks"
   ],
+  "newFileLocation": "current",
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,
@@ -79,7 +82,7 @@
   "openSpacesOnLaunch": true,
   "indexSVG": false,
   "quickFrames": [],
-  "readableLineWidth": true,
+  "readableLineWidth": false,
   "autoAddContextsToSubtags": true,
   "autoMigration08": false,
   "releaseNotesPrompt": 0.9,
