@@ -74,18 +74,6 @@
               "icon": "lucide-file",
               "title": "Partial"
             }
-          },
-          {
-            "id": "4c829e0d4b061776",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
-            }
           }
         ],
         "currentTab": 5
@@ -259,6 +247,13 @@
   },
   "active": "4c829e0d4b061776",
   "lastOpenFiles": [
+    "Tauri/Env Setup.md",
+    "Tauri",
+    "rust/formatting.md",
+    "conflict-files-obsidian-git.md",
+    "Sound/cpal(Cross-Platform Audio Library).md",
+    "rust",
+    "Sound",
     "nodejs/Untitled.md",
     "nodejs/TypeScript/Partial.md",
     "nodejs/TypeScript",
@@ -279,7 +274,6 @@
     "unreal/part02",
     "unreal/part02/World.md",
     "unreal/예제1.md",
-    "unreal/part01",
     "유니티/2d/GoldMetal/random tile &&  infinity tile map.md",
     "유니티/2d/Pasted image 20250127224459.png",
     "유니티/2d/Pasted image 20250127224445.png",
@@ -297,13 +291,6 @@
     "unreal/part01/Unreal 컨데이터 라이브러리 TMap, UStruct.md",
     "unreal/part01/Unreal 컨데이터 라이브러리 TSet.md",
     "유니티/2d/GoldMetal/게임 오브젝트 이동.md",
-    "유니티/2d/Instantiate.md",
-    "유니티/2d/GoldMetal",
-    "유니티/2d/Animation/Pasted image 20250105150609.png",
-    "유니티/2d/Animation/Has Exit Time.md",
-    "유니티/2d/Animation/Sprite Atlas.md",
-    "unreal/part01/Unreal 컨테이너 라이브러리 (UCL).md",
-    "unreal/part01/Unreal Delegate.md",
-    "unreal/diagram"
+    "유니티/2d/Animation/Pasted image 20250105150609.png"
   ]
 }
