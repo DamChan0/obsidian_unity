@@ -74,9 +74,21 @@
               "icon": "lucide-file",
               "title": "Partial"
             }
+          },
+          {
+            "id": "4c829e0d4b061776",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -245,7 +257,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5263182aeefea98d",
+  "active": "4c829e0d4b061776",
   "lastOpenFiles": [
     "nodejs/Untitled.md",
     "nodejs/TypeScript/Partial.md",
