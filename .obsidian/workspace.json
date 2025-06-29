@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rust/formatting.md",
+                "file": "Sound/cpal(Cross-Platform Audio Library).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "formatting"
+              "title": "cpal(Cross-Platform Audio Library)"
             }
           }
         ]
@@ -192,13 +192,13 @@
   },
   "active": "843d74e3e0844c02",
   "lastOpenFiles": [
+    "rust/formatting.md",
     "Sound/cpal(Cross-Platform Audio Library).md",
     "유니티/2d/prefab.md",
     "unreal/part01/Composition.md",
     "nodejs/Untitled.md",
     "nodejs/TypeScript/Partial.md",
     "conflict-files-obsidian-git.md",
-    "rust/formatting.md",
     "rust",
     "Sound",
     "Tauri/Env Setup.md",
