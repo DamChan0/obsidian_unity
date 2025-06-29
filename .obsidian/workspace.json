@@ -74,9 +74,21 @@
               "icon": "lucide-file",
               "title": "Partial"
             }
+          },
+          {
+            "id": "4c829e0d4b061776",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -245,15 +257,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4c829e0d4b061776",
+  "active": "91a87454125825bb",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "rust/formatting.md",
+    "rust",
+    "Sound/cpal(Cross-Platform Audio Library).md",
+    "Sound",
     "Tauri/Env Setup.md",
     "Tauri",
-    "rust/formatting.md",
-    "conflict-files-obsidian-git.md",
-    "Sound/cpal(Cross-Platform Audio Library).md",
-    "rust",
-    "Sound",
     "nodejs/Untitled.md",
     "nodejs/TypeScript/Partial.md",
     "nodejs/TypeScript",
