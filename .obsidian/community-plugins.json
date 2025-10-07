@@ -1,13 +1,14 @@
 [
   "obsidian-excalidraw-plugin",
   "table-editor-obsidian",
-  "drawio-obsidian",
   "templater-obsidian",
   "obsidian-minimal-settings",
-  "obsidian-git",
   "highlightr-plugin",
   "obsidian-style-settings",
   "colored-text",
   "obsidian-outliner",
-  "obsidian-zoom"
+  "obsidian-zoom",
+  "folder-note-plugin",
+  "waypoint",
+  "obsidian-git"
 ]

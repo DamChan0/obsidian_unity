@@ -1,4 +1,7 @@
 
+> [!info]+ formatter
+> 데이터 print format
+
 ## 1. 기본 출력 
 - println! 을 사용하여 값을 출력한다
 - { }을 기본적으로 사용한다 

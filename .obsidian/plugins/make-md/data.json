@@ -42,7 +42,8 @@
   "expandedSpaces": [
     "/",
     "//nodejs",
-    "//nodejs/nodejs/TypeScript"
+    "//nodejs/nodejs/TypeScript",
+    "//군산"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
