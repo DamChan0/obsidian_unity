@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "android/Gird project/Kotlin/ROOM.md",
+                "file": "android/Gird project/Issues/Android 이미지 로딩 문제 해결 가이드.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ROOM"
+              "title": "Android 이미지 로딩 문제 해결 가이드"
             }
           }
         ]
@@ -185,9 +185,12 @@
   },
   "active": "34ed95fa22184485",
   "lastOpenFiles": [
-    "android/Gird project/Kotlin/gradle.md",
-    "android/Gird project/Kotlin/ROOM.md",
+    "android/Gird project/Issues/Issues.md",
+    "android/Gird project/Issues/Android 이미지 로딩 문제 해결 가이드.md",
+    "android/Gird project/Issues",
     "android/Gird project/Kotlin/Kotlin.md",
+    "android/Gird project/Kotlin/ROOM.md",
+    "android/Gird project/Kotlin/gradle.md",
     "android/Gird project/Kotlin/MainActivity.md",
     "android/Gird project/Kotlin/10.07.md",
     "BackEnd/BackEnd.md",
@@ -215,12 +218,9 @@
     "BackEnd/DB/DB란.md",
     "Tags",
     "군산",
-    "Sound/cpal(Cross-Platform Audio Library).md",
-    "유니티/2d/prefab.md",
     "rust",
     "Sound",
     "Tauri",
-    "nodejs/TypeScript",
     "flutter/src/Pasted image 20241004143250.png",
     "flutter/src/Pasted image 20240917222956.png",
     "unreal/part02/Pasted image 20250217224214.png",
