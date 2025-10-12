@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "android/Gird project/Issues/Android 이미지 로딩 문제 해결 가이드.md",
+                "file": "android/Gird project/Kotlin/권한 요청.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Android 이미지 로딩 문제 해결 가이드"
+              "title": "권한 요청"
             }
           }
         ]
@@ -185,10 +185,11 @@
   },
   "active": "34ed95fa22184485",
   "lastOpenFiles": [
-    "android/Gird project/Issues/Issues.md",
     "android/Gird project/Issues/Android 이미지 로딩 문제 해결 가이드.md",
-    "android/Gird project/Issues",
+    "android/Gird project/Kotlin/권한 요청.md",
     "android/Gird project/Kotlin/Kotlin.md",
+    "android/Gird project/Issues/Issues.md",
+    "android/Gird project/Issues",
     "android/Gird project/Kotlin/ROOM.md",
     "android/Gird project/Kotlin/gradle.md",
     "android/Gird project/Kotlin/MainActivity.md",
@@ -215,7 +216,6 @@
     "군산/맛집.md",
     "군산/시간.md",
     "유니티/유니티.md",
-    "BackEnd/DB/DB란.md",
     "Tags",
     "군산",
     "rust",

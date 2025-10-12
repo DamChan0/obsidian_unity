@@ -199,7 +199,7 @@ override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
 ### 5단계: 데이터베이스 설정 개선
 
-#### A. AppDatabase.kt 수정
+	#### A. AppDatabase.kt 수정
 
 ```kotlin
 val instance = Room.databaseBuilder(
