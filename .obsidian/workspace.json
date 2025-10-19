@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "android/Gird project/Kotlin/Lamda.md",
+                "file": "android/Gird project/Kotlin/menu bar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lamda"
+              "title": "menu bar"
             }
           }
         ]
@@ -185,8 +185,9 @@
   },
   "active": "34ed95fa22184485",
   "lastOpenFiles": [
-    "android/Gird project/Kotlin/코루틴.md",
     "android/Gird project/Kotlin/Lamda.md",
+    "android/Gird project/Kotlin/menu bar.md",
+    "android/Gird project/Kotlin/코루틴.md",
     "android/Gird project/Kotlin/데이터베이스에서 image loading 하기.md",
     "android/Gird project/Kotlin/Kotlin.md",
     "android/Gird project/Issues/Android 이미지 로딩 문제 해결 가이드.md",
@@ -215,7 +216,6 @@
     "call_out_templater.md",
     "Tauri/study.md",
     "군산/군산.md",
-    "군산/가볼곳.md",
     "Tags",
     "군산",
     "rust",
