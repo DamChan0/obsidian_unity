@@ -10,5 +10,7 @@
   "obsidian-zoom",
   "folder-note-plugin",
   "waypoint",
-  "obsidian-git"
+  "obsidian-git",
+  "mcp-tools",
+  "obsidian-local-rest-api"
 ]
