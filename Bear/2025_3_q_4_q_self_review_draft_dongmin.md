@@ -6,7 +6,7 @@
 
 ---
 
-## 1. Accomplishments
+## 1. Accomplishments![[search-core/프로젝트 구조]]
 
 ### A. Sound System (3Q~4Q)
 
