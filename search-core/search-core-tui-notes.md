@@ -34,6 +34,23 @@ flowchart TB
     loop --> input --> search_dir --> searcher --> matcher --> update --> loop
 ```
 
+## Mermaid 상태 전이 (입력/검색)
+```mermaid
+stateDiagram-v2
+    [*] --> Idle
+    Idle --> InputMode: / 또는 :
+    InputMode --> Idle: Esc
+    InputMode --> Searching: Enter (패턴 유효)
+
+    Searching --> Idle: 검색 종료
+    Searching --> Viewing: 결과 수신
+    Viewing --> Searching: 추가 결과 수신
+    Viewing --> Idle: 검색 종료
+
+    Idle --> Quit: q (또는 Ctrl+Q)
+    Quit --> [*]
+```
+
 ## 좋은 구조 설계 제안
 - 상태와 렌더링 분리:
   - `AppState`(데이터)와 `Ui`(렌더)로 분리하면 테스트 용이
@@ -66,6 +83,23 @@ flowchart TB
   - 에러 전파를 간결하게 처리
 - `derive`:
   - `Debug`, `Clone`, `Default` 등을 자동 구현해 사용성 향상
+
+## Ratatui 기반 구현 계획
+- 목표:
+  - 현재 TUI 흐름을 ratatui로 정돈된 구조로 재구성
+  - 상태/이벤트/렌더링 분리로 유지보수성 향상
+- 단계별 계획:
+  - 1) 상태 분리: `AppState`에 입력, 검색 상태, 결과, 메시지 저장
+  - 2) 이벤트 분리: `InputHandler`로 키 이벤트 해석 (Input/Normal 모드)
+  - 3) 검색 서비스 분리: `SearchService`에서 `search_stream`과 mpsc 연결
+  - 4) UI 렌더 모듈화: `ui::draw(f, &state)`로 단일 진입점
+  - 5) 테스트 포인트 정의: 상태 전이와 입력 처리만 단위 테스트
+- 모듈 구성 예시:
+  - `src/app_state.rs`: 상태 구조체, 전이 함수
+  - `src/input.rs`: 키 이벤트 -> 명령 변환
+  - `src/search_service.rs`: 검색 시작/중단, 채널 처리
+  - `src/ui.rs`: 화면 렌더링
+  - `src/tui.rs`: 런타임/이벤트 루프 조합
 
 ## 참고 경로
 - `src/main.rs`
