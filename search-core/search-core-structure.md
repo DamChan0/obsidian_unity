@@ -2,50 +2,33 @@
 
 ```mermaid
 flowchart TB
-    subgraph Binary
-        main[main.rs
-(tui::run_tui)]
+    subgraph Entry
+        main["1. main.rs | tui::run_tui"]
+        repls["1b. repls.rs | REPL 입력 루프"]
     end
 
-    subgraph Library
-        lib[lib.rs
-re-exports]
-        tui[tui.rs
-TUI 상태/이벤트]
-        repls[repls.rs
-REPL 입력 루프]
-        command[command.rs
-Command::parse]
-        search_dir[search_dir.rs
-search_stream]
-        searcher[searcher.rs
-searcher]
-        matcher[matcher.rs
-find_matches
-extract_line_context]
-        types[types.rs
-SearchOptions
-MatchInfo]
+    subgraph Parse
+        command["2. command.rs | Command::parse"]
     end
 
-    main --> tui
-    repls --> command
-    repls --> search_dir
-    repls --> types
+    subgraph Search
+        search_dir["3. search_dir.rs | search_stream"]
+        searcher["4. searcher.rs | searcher"]
+        matcher["5. matcher.rs | find_matches, extract_line_context"]
+    end
 
-    tui --> search_dir
-    tui --> types
+    subgraph Data
+        types["Data. types.rs | SearchOptions, MatchInfo"]
+    end
 
-    search_dir --> searcher
+    main --> search_dir
+    repls --> command --> search_dir
+    search_dir --> searcher --> matcher
+
     search_dir --> types
-
-    searcher --> matcher
     searcher --> types
-
-    lib --> repls
-    lib --> search_dir
-    lib --> searcher
-    lib --> types
+    matcher --> types
+    repls --> types
 ```
 
 ## 흐름 요약
