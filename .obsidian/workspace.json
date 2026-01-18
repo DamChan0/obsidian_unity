@@ -223,6 +223,7 @@
   },
   "active": "26c4fe44cb7984cc",
   "lastOpenFiles": [
+    "search-core/search-core-tui-notes.md",
     "search-core/의존성 및 빌드 설정.md",
     "search-core/search-core-structure.md",
     "search-core/코드 흐름 및 데이터 구조.md",
@@ -259,7 +260,6 @@
     "android/Gird project/Kotlin/10.07.md",
     "android/Gird project/Issues/Issues.md",
     "android/Gird project/Kotlin/Data 삭제.md",
-    "android/Gird project/Issues/Android 이미지 로딩 문제 해결 가이드.md",
     "android/Gird project/Issues",
     "android/Gird project/Kotlin",
     "android/Gird project",
