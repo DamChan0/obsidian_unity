@@ -38,16 +38,16 @@ flowchart TB
 ```mermaid
 stateDiagram-v2
     [*] --> Idle
-    Idle --> InputMode: / 또는 :
+    Idle --> InputMode: SlashOrColon
     InputMode --> Idle: Esc
-    InputMode --> Searching: Enter (패턴 유효)
+    InputMode --> Searching: EnterValid
 
-    Searching --> Idle: 검색 종료
-    Searching --> Viewing: 결과 수신
-    Viewing --> Searching: 추가 결과 수신
-    Viewing --> Idle: 검색 종료
+    Searching --> Idle: SearchDone
+    Searching --> Viewing: ResultIn
+    Viewing --> Searching: ResultMore
+    Viewing --> Idle: SearchDone
 
-    Idle --> Quit: q (또는 Ctrl+Q)
+    Idle --> Quit: QuitKey
     Quit --> [*]
 ```
 
