@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "search-core/search-core-tui-notes.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -223,8 +223,9 @@
   },
   "active": "26c4fe44cb7984cc",
   "lastOpenFiles": [
-    "search-core/search-core-structure.md",
+    "search-core/search-core-tui-state-diagram.md",
     "search-core/search-core-tui-notes.md",
+    "search-core/search-core-structure.md",
     "search-core/의존성 및 빌드 설정.md",
     "search-core/코드 흐름 및 데이터 구조.md",
     "search-core/README.md",
@@ -259,7 +260,6 @@
     "android/Gird project/Kotlin/권한 요청.md",
     "android/Gird project/Kotlin/10.07.md",
     "android/Gird project/Issues/Issues.md",
-    "android/Gird project/Kotlin/Data 삭제.md",
     "android/Gird project/Issues",
     "android/Gird project/Kotlin",
     "android/Gird project",
