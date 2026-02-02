@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "search-core-tui-notes"
             }
+          },
+          {
+            "id": "b63943156d5e0efc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -221,7 +233,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "26c4fe44cb7984cc",
+  "active": "b63943156d5e0efc",
   "lastOpenFiles": [
     "search-core/search-core-tui-state-diagram.md",
     "search-core/search-core-tui-notes.md",
