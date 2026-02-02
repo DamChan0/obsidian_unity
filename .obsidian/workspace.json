@@ -255,10 +255,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b63943156d5e0efc",
+  "active": "f07f6b08280296d1",
   "lastOpenFiles": [
-    "rust/security/보안 기술.md",
+    "rust/security/Pasted image 20260202214252.png",
     "rust/security/crates.md",
+    "rust/security/보안 기술.md",
     "rust/security/security.md",
     "rust/rust.md",
     "rust/security",
@@ -294,7 +295,6 @@
     "android/Gird project/Kotlin/Room Database - 데이터 다루기.md",
     "call_out_templater.md",
     "android/Gird project/Kotlin/ROOM.md",
-    "android/Gird project/Kotlin/데이터베이스에서 image loading 하기.md",
     "android/Gird project/Issues",
     "android/Gird project/Kotlin",
     "flutter/src/Pasted image 20241004143250.png",
