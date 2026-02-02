@@ -255,11 +255,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f07f6b08280296d1",
+  "active": "b63943156d5e0efc",
   "lastOpenFiles": [
-    "rust/security/Pasted image 20260202214252.png",
-    "rust/security/crates.md",
     "rust/security/보안 기술.md",
+    "rust/security/crates.md",
+    "rust/security/Pasted image 20260202214252.png",
     "rust/security/security.md",
     "rust/rust.md",
     "rust/security",
@@ -302,7 +302,6 @@
     "unreal/part02/Pasted image 20250217224214.png",
     "유니티/2d/Pasted image 20250127224459.png",
     "유니티/2d/Pasted image 20250127224445.png",
-    "유니티/2d/Pasted image 20250127224441.png",
-    "유니티/2d/Pasted image 20250127224406.png"
+    "유니티/2d/Pasted image 20250127224441.png"
   ]
 }
