@@ -55,36 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rust/security/crates.md",
+                "file": "rust/security/quic_m_tls_터널_코드_해설_server_rs_client.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "crates"
+              "title": "quic_m_tls_터널_코드_해설_server_rs_client"
             }
           }
         ],
         "currentTab": 3
-      },
-      {
-        "id": "078f54425c5512f1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f07f6b08280296d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rust/security/보안 기술.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "보안 기술"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -258,10 +238,13 @@
   "active": "b63943156d5e0efc",
   "lastOpenFiles": [
     "rust/security/보안 기술.md",
-    "rust/security/crates.md",
     "rust/security/Pasted image 20260202214252.png",
     "rust/security/security.md",
     "rust/rust.md",
+    "rust/debug, Serialize.md",
+    "rust/security/멀티 플렉싱.md",
+    "rust/security/quic_m_tls_터널_코드_해설_server_rs_client.md",
+    "rust/security/crates.md",
     "rust/security",
     "search-core/search-core-tui-state-diagram.md",
     "search-core/search-core-tui-notes.md",
@@ -285,7 +268,6 @@
     "Bear",
     "src/Pasted image 20240813235628.png",
     "src/Pasted image 20240727192513.png",
-    "rust/debug, Serialize.md",
     "유니티/유니티.md",
     "conflict-files-obsidian-git.md",
     "군산/군산.md",
@@ -293,8 +275,6 @@
     "rust/formatting.md",
     "rust/Default vs New.md",
     "android/Gird project/Kotlin/Room Database - 데이터 다루기.md",
-    "call_out_templater.md",
-    "android/Gird project/Kotlin/ROOM.md",
     "android/Gird project/Issues",
     "android/Gird project/Kotlin",
     "flutter/src/Pasted image 20241004143250.png",
