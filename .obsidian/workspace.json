@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rust/security/quic_m_tls_터널_코드_해설_server_rs_client.md",
+                "file": "rust/security/crates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "quic_m_tls_터널_코드_해설_server_rs_client"
+              "title": "crates"
             }
           }
         ],
@@ -237,14 +237,14 @@
   },
   "active": "b63943156d5e0efc",
   "lastOpenFiles": [
+    "rust/security/security.md",
+    "rust/security/quic_m_tls_터널_코드_해설_server_rs_client.md",
+    "rust/security/crates.md",
     "rust/security/보안 기술.md",
     "rust/security/Pasted image 20260202214252.png",
-    "rust/security/security.md",
     "rust/rust.md",
     "rust/debug, Serialize.md",
     "rust/security/멀티 플렉싱.md",
-    "rust/security/quic_m_tls_터널_코드_해설_server_rs_client.md",
-    "rust/security/crates.md",
     "rust/security",
     "search-core/search-core-tui-state-diagram.md",
     "search-core/search-core-tui-notes.md",
