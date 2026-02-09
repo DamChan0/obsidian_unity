@@ -6,6 +6,7 @@
       {
         "id": "6b0dae2efba129a5",
         "type": "tabs",
+        "dimension": 48.782051282051285,
         "children": [
           {
             "id": "34ed95fa22184485",
@@ -41,20 +42,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "search-core/search-core-tui-notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "search-core-tui-notes"
-            }
-          },
-          {
-            "id": "b63943156d5e0efc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "rust/security/crates.md",
                 "mode": "source",
                 "source": false
@@ -62,9 +49,42 @@
               "icon": "lucide-file",
               "title": "crates"
             }
+          },
+          {
+            "id": "65a2ad93ab1d3f13",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "033e6d8e1498515b",
+        "type": "tabs",
+        "dimension": 51.217948717948715,
+        "children": [
+          {
+            "id": "b63943156d5e0efc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rust/security/quic_m_tls_터널_코드_해설_server_rs_client.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "quic_m_tls_터널_코드_해설_server_rs_client"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -235,25 +255,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b63943156d5e0efc",
+  "active": "65a2ad93ab1d3f13",
   "lastOpenFiles": [
-    "rust/security/security.md",
     "rust/security/quic_m_tls_터널_코드_해설_server_rs_client.md",
     "rust/security/crates.md",
-    "rust/security/보안 기술.md",
-    "rust/security/Pasted image 20260202214252.png",
     "rust/rust.md",
-    "rust/debug, Serialize.md",
+    "rust/security/Pasted image 20260202214252.png",
+    "rust/security/보안 기술.md",
     "rust/security/멀티 플렉싱.md",
+    "search-core/search-core-tui-notes.md",
+    "search-core/모듈 상세 분석.md",
+    "rust/security/security.md",
+    "rust/debug, Serialize.md",
     "rust/security",
     "search-core/search-core-tui-state-diagram.md",
-    "search-core/search-core-tui-notes.md",
     "search-core/search-core-structure.md",
     "search-core/의존성 및 빌드 설정.md",
     "search-core/코드 흐름 및 데이터 구조.md",
     "search-core/README.md",
     "search-core/프로젝트 구조.md",
-    "search-core/모듈 상세 분석.md",
     "Bear/2025_3_q_4_q_self_review_draft_dongmin.md",
     "search-core/README",
     "search-core/의존성 및 빌드 설정",

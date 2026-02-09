@@ -36,5 +36,5 @@ rustls-pemfile = "2"
 - 이건 Rust의 정석 패턴이다:
 	- `Iterator<Item = Result<T, E>>`  → `Result<Vec<T>, E>`
 	- 즉
-		- 하나라도 실패하면 → 즉시 Err
-		- 전부 성공하면 → Vec로 묶음
+		- 하나라도 실패하면 → 즉시 Errㅁㄴㄴㅇ
+		- 전부 성공하면 → Vec로 묶음ㅇㅁ
