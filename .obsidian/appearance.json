@@ -3,5 +3,8 @@
   "baseFontSize": 17,
   "monospaceFontFamily": "",
   "interfaceFontFamily": "Consolas",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "style"
+  ]
 }
