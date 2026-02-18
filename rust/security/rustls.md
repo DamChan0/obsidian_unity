@@ -75,3 +75,87 @@
 
 ### 'static 
 - `CertificateDer` 이 빌린 참조가 아니라 소유되는 바이트로 만들어졌다는 것을 나타낸다. 
+
+
+# WebPkiClientVerifier
+
+> **WebPkiClientVerifier는 TLS 서버가 클라이언트 인증서를 검증하기 위한 정책 객체이다.**
+
+- 서버가 클라이언트에게 인증서를 요구할 때 
+- 인증서가 신뢰 가능한지 검사하는 로직을 구조체가 담고있음
+
+
+```
+ServerConfig
+ ├─ cipher suites
+ ├─ server certificate
+ ├─ private key
+ └─ client certificate verifier  ← 여기
+```
+
+
+## 왜 이런 객체가 필요한가
+
+TLS에는 두 가지 모드가 있다.
+### ① 일반 HTTPS
+- 서버만 인증서 보유
+- 클라이언트는 인증서 없음
+- 서버는 클라이언트 신원 확인 안 함
+`.with_no_client_auth()`
+
+---
+### ② mTLS (Mutual TLS)
+
+- 서버도 인증서 보유
+- 클라이언트도 인증서 보유
+- 서버는 클라이언트 인증서를 검증해야 함
+이때 필요한 것이:
+`WebPkiClientVerifier`
+
+## WebPkiClientVerifier의 실제 역할
+
+Handshake 과정에서:
+
+1. 서버가 "CertificateRequest" 전송
+    
+2. 클라이언트가 인증서 체인 전송
+    
+3. rustls가 verifier에게 검증 요청
+    
+4. verifier가 다음을 검사:
+    
+    - 인증서 체인 유효성
+        
+    - 서명 검증
+        
+    - 루트 CA 신뢰 여부
+        
+    - 만료 여부
+        
+    - Key Usage
+        
+    - Extended Key Usage (clientAuth)
+        
+
+검증 성공 → handshake 계속  
+검증 실패 → handshake 종료
+
+
+## 내부 구조 
+```rust 
+pub struct WebPkiClientVerifier{
+    roots: Arc<RootCertStore>,
+    // 기타 검증 정책
+}
+```
+
+-  RootCertStore = 신뢰 할 수 있는 CA목록이 들어가있다.
+
+### webpki
+- 내부 적으로는 `webpki` 라이브러리를 사용해서 인증서 검증 로직이 구현된다. 
+- webpki는:
+	- X.509 검증 전용 라이브러리
+	    
+	- Mozilla PKI 정책 기반
+	    
+	- 브라우저 수준의 검증 로직 구현
