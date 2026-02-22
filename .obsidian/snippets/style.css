@@ -1,8 +1,8 @@
 .cm-contentContainer {
-    line-height: 1.5;
+    line-height: 2.5;
 }
 
 /* 미리보기 모드에서의 행간 조절 */
 .markdown-preview-view {
-    line-height: 1.5;
+    line-height: 2.5;
 }
