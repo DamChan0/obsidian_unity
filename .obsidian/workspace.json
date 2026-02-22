@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rust/context.md",
+                "file": "rust/security/TLS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "context"
+              "title": "TLS"
             }
           },
           {
@@ -257,12 +257,14 @@
   },
   "active": "26c4fe44cb7984cc",
   "lastOpenFiles": [
-    "rust/rust.md",
-    "rust/context.md",
     "rust/security/security.md",
+    "rust/security/TLS.md",
     "rust/security/rustls.md",
-    "rust/security/crates.md",
     "rust/security/quic_m_tls_터널_코드_해설_server_rs_client.md",
+    "rust/context.md",
+    "rust/Mutex.md",
+    "rust/rust.md",
+    "rust/security/crates.md",
     "rust/security/Pasted image 20260202214252.png",
     "rust/security/보안 기술.md",
     "rust/security/멀티 플렉싱.md",
@@ -293,9 +295,7 @@
     "유니티/유니티.md",
     "conflict-files-obsidian-git.md",
     "군산/군산.md",
-    "rust/Mutex.md",
     "rust/formatting.md",
-    "rust/Default vs New.md",
     "android/Gird project/Issues",
     "android/Gird project/Kotlin",
     "flutter/src/Pasted image 20241004143250.png",
